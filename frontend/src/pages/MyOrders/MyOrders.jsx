@@ -4,7 +4,7 @@ import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
 
-const My = () => {
+const MyOrders = () => {
 
     const {url,token} = useContext(StoreContext);
     const [data,setData] = useState([]);
@@ -48,4 +48,4 @@ const My = () => {
   )
 }
 
-export default My
+export default MyOrders
