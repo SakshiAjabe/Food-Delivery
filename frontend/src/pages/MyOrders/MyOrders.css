@@ -23,6 +23,7 @@
 .my-orders-order p span{
     color: tomato;
 }
+
 .my-orders-order p b{
     font-weight: 500;
     color: #454545;
@@ -50,10 +51,11 @@
 }
 
 
-:root .my-orders-order p b,
+/* :root .my-orders-order p b,
 :root .my-orders-order{
     color: white;
-}
+} */
+
 
 .lightcolors .my-orders-order p b,
 .lightcolors .my-orders-order{
@@ -61,9 +63,9 @@
 }
 
 
-:root .myordersp {
+/* :root .myordersp {
     color: white; 
-}
+} */
 
 .lightcolors .myordersp {
     color: black;
@@ -79,4 +81,4 @@
     .my-orders-order button{
         font-size: 10px;
     }
-}
+} 
